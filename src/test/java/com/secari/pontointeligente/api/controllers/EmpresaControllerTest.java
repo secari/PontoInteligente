@@ -1,4 +1,4 @@
-package com.kazale.pontointeligente.api.controllers;
+package com.secari.pontointeligente.api.controllers;
 
 import static org.hamcrest.CoreMatchers.equalTo;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.jsonPath;
@@ -21,8 +21,8 @@ import org.springframework.test.context.junit4.SpringRunner;
 import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
 
-import com.kazale.pontointeligente.api.entities.Empresa;
-import com.kazale.pontointeligente.api.services.EmpresaService;
+import com.secari.pontointeligente.api.entities.Empresa;
+import com.secari.pontointeligente.api.services.EmpresaService;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest

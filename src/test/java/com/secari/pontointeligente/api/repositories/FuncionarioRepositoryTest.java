@@ -1,4 +1,4 @@
-package com.kazale.pontointeligente.api.repositories;
+package com.secari.pontointeligente.api.repositories;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
@@ -14,10 +14,10 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.ActiveProfiles;
 import org.springframework.test.context.junit4.SpringRunner;
 
-import com.kazale.pontointeligente.api.entities.Empresa;
-import com.kazale.pontointeligente.api.entities.Funcionario;
-import com.kazale.pontointeligente.api.enums.PerfilEnum;
-import com.kazale.pontointeligente.api.utils.PasswordUtils;
+import com.secari.pontointeligente.api.entities.Empresa;
+import com.secari.pontointeligente.api.entities.Funcionario;
+import com.secari.pontointeligente.api.enums.PerfilEnum;
+import com.secari.pontointeligente.api.utils.PasswordUtils;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
